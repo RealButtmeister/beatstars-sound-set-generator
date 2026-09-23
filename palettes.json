@@ -1,0 +1,1799 @@
+{
+  "schema_version": 1,
+  "provenance": "Original production suggestions selected from chart title and tag families. These are not audio analyses, extracted sounds, exact artist presets, verified sales claims, or guarantees of chart coverage. GM programs are zero-based fallback instruments; descriptive lane names state the intended timbre. MIDI note values are starting pitches, with standard General MIDI percussion notes for drum roles. Use one bass lane per profile and choose supporting melodic lanes selectively.",
+  "profiles": [
+    {
+      "id": "trap",
+      "name": "Trap essentials",
+      "aliases": [
+        "trap",
+        "future",
+        "young thug",
+        "21 savage",
+        "southside"
+      ],
+      "description": "A restrained trap starting point with a tuned sustained bass, tight drums and a few contrasting melodic colors. Choose one main melody and use the remaining voices as occasional accents.",
+      "bpm_hint": "130-150 BPM; hear the backbeat in half time.",
+      "lanes": [
+        {
+          "name": "D1 Kick - short rounded punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - dry sharp crack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - narrow papery accent",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - crisp fine tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - short bright lift",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Percussion - low wooden knock",
+          "role": "percussion",
+          "program": 0,
+          "note": 76
+        },
+        {
+          "name": "B1 Bass - tuned long 808 glide",
+          "role": "bass",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - sparse dark piano",
+          "role": "chords",
+          "program": 0,
+          "note": 60
+        },
+        {
+          "name": "M2 Pluck - thin glass bell",
+          "role": "pluck",
+          "program": 10,
+          "note": 72
+        },
+        {
+          "name": "M3 Pad - quiet warm haze",
+          "role": "pad",
+          "program": 89,
+          "note": 60
+        }
+      ]
+    },
+    {
+      "id": "atmospheric_trap",
+      "name": "Atmospheric trap",
+      "aliases": [
+        "atmospheric trap",
+        "travis scott",
+        "don toliver",
+        "mike dean",
+        "spacey",
+        "psychedelic trap",
+        "clams casino",
+        "cloud rap"
+      ],
+      "description": "Wide, slow-moving synth color over a clear central drum and bass foundation. Keep the pad quiet and let the lead answer the main motif instead of playing continuously.",
+      "bpm_hint": "120-150 BPM; slow harmonic movement and half-time drums.",
+      "lanes": [
+        {
+          "name": "D1 Kick - deep muted thump",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - dark roomy snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Closed hat - soft metallic tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D4 Open hat - airy short wash",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D5 Percussion - distant rim click",
+          "role": "percussion",
+          "program": 0,
+          "note": 37
+        },
+        {
+          "name": "B1 Bass - rounded 808 with gentle drive",
+          "role": "bass",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Pad - slow detuned analog cloud",
+          "role": "pad",
+          "program": 89,
+          "note": 60
+        },
+        {
+          "name": "M2 Chords - dim electric piano",
+          "role": "chords",
+          "program": 4,
+          "note": 60
+        },
+        {
+          "name": "M3 Lead - wide bending saw",
+          "role": "lead",
+          "program": 81,
+          "note": 72
+        },
+        {
+          "name": "M4 Arp - filtered repeating pulse",
+          "role": "arp",
+          "program": 90,
+          "note": 72
+        },
+        {
+          "name": "F1 FX - brief reverse shimmer",
+          "role": "fx",
+          "program": 102,
+          "note": 72
+        }
+      ]
+    },
+    {
+      "id": "melodic_trap",
+      "name": "Melodic trap",
+      "aliases": [
+        "melodic trap",
+        "gunna",
+        "lil baby",
+        "lil uzi",
+        "lil uzi vert",
+        "polo g",
+        "roddy ricch"
+      ],
+      "description": "An open melodic kit with a clean plucked motif and soft supporting harmony. Use one bass voice, leave pauses in the top line and vary hat velocity more than density.",
+      "bpm_hint": "130-160 BPM; melodic phrases across four or eight bars.",
+      "lanes": [
+        {
+          "name": "D1 Kick - compact warm punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Clap - soft layered snap",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D3 Snare - short bright accent",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D4 Closed hat - light precise tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - gentle breath",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Percussion - small rounded click",
+          "role": "percussion",
+          "program": 0,
+          "note": 75
+        },
+        {
+          "name": "B1 Bass - smooth tuned 808",
+          "role": "bass",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Pluck - clean guitar droplets",
+          "role": "pluck",
+          "program": 27,
+          "note": 64
+        },
+        {
+          "name": "M2 Keys - mellow electric piano",
+          "role": "chords",
+          "program": 4,
+          "note": 60
+        },
+        {
+          "name": "M3 Bell - delicate high chime",
+          "role": "lead",
+          "program": 8,
+          "note": 76
+        },
+        {
+          "name": "M4 Pad - faint silky strings",
+          "role": "pad",
+          "program": 49,
+          "note": 60
+        }
+      ]
+    },
+    {
+      "id": "boom_bap",
+      "name": "Dusty boom bap",
+      "aliases": [
+        "boom bap",
+        "boombap",
+        "griselda",
+        "westside gunn",
+        "westsidegunn",
+        "alchemist",
+        "daringer",
+        "j cole",
+        "joey badass"
+      ],
+      "description": "Dry, textured drums and a compact harmonic palette for swung patterns. Build around keys or guitar, with the horn reserved for occasional punctuation.",
+      "bpm_hint": "76-96 BPM; relaxed swing and varied drum velocity.",
+      "lanes": [
+        {
+          "name": "D1 Kick - dusty firm knock",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - dry woody smack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Closed hat - dull loose tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D4 Open hat - short dusty sizzle",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D5 Percussion - soft rim knock",
+          "role": "percussion",
+          "program": 0,
+          "note": 37
+        },
+        {
+          "name": "D6 Cymbal - restrained ride bell",
+          "role": "cymbal",
+          "program": 0,
+          "note": 53
+        },
+        {
+          "name": "B1 Bass - warm fingered electric",
+          "role": "bass",
+          "program": 33,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - worn mellow piano",
+          "role": "chords",
+          "program": 0,
+          "note": 60
+        },
+        {
+          "name": "M2 Guitar - dark muted jazz",
+          "role": "pluck",
+          "program": 26,
+          "note": 64
+        },
+        {
+          "name": "M3 Horn - short muted brass answer",
+          "role": "lead",
+          "program": 59,
+          "note": 67
+        },
+        {
+          "name": "M4 Pad - faded string sustain",
+          "role": "pad",
+          "program": 48,
+          "note": 60
+        }
+      ]
+    },
+    {
+      "id": "southern_trap",
+      "name": "Southern trap and Memphis bounce",
+      "aliases": [
+        "southern trap",
+        "memphis",
+        "bigxthaplug",
+        "big x tha plug",
+        "key glock",
+        "young dolph",
+        "moneybagg yo",
+        "gucci mane"
+      ],
+      "description": "Heavy central drums with a sparse keyboard or brass phrase and a single thick bass. Keep melodic parts short enough to leave room for the rhythmic hook.",
+      "bpm_hint": "130-160 BPM, or 65-80 BPM for half-time writing.",
+      "lanes": [
+        {
+          "name": "D1 Kick - hard short chest hit",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - loud dry crack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - clipped wide handclap",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - tight bright tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - abrupt metallic lift",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Percussion - hollow cowbell",
+          "role": "percussion",
+          "program": 0,
+          "note": 56
+        },
+        {
+          "name": "B1 Bass - thick driven 808",
+          "role": "bass",
+          "program": 39,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - low tense piano stabs",
+          "role": "chords",
+          "program": 0,
+          "note": 55
+        },
+        {
+          "name": "M2 Brass - blunt low synth hits",
+          "role": "lead",
+          "program": 62,
+          "note": 60
+        },
+        {
+          "name": "M3 Pluck - short dark bell",
+          "role": "pluck",
+          "program": 14,
+          "note": 67
+        }
+      ]
+    },
+    {
+      "id": "dark_rnb",
+      "name": "Dark R&B",
+      "aliases": [
+        "dark rnb",
+        "dark r&b",
+        "partynextdoor",
+        "pnd",
+        "brent faiyaz",
+        "6lack",
+        "tory lanez",
+        "4batz"
+      ],
+      "description": "Soft attacks, close percussion and dim harmonic textures. Let the electric piano or pad carry the harmony while the pluck and vocal-like synth appear only in gaps.",
+      "bpm_hint": "65-95 BPM, or 130-190 BPM with a half-time feel.",
+      "lanes": [
+        {
+          "name": "D1 Kick - soft deep pulse",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - close filtered snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - hushed handclap",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - fine quiet tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Percussion - dry finger click",
+          "role": "percussion",
+          "program": 0,
+          "note": 37
+        },
+        {
+          "name": "B1 Sub - clean rounded sine",
+          "role": "sub",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - dark soft electric piano",
+          "role": "chords",
+          "program": 4,
+          "note": 60
+        },
+        {
+          "name": "M2 Pad - low-pass drifting warmth",
+          "role": "pad",
+          "program": 89,
+          "note": 60
+        },
+        {
+          "name": "M3 Pluck - muted clean guitar",
+          "role": "pluck",
+          "program": 28,
+          "note": 67
+        },
+        {
+          "name": "M4 Vocal - breathy synth vowel accent",
+          "role": "vocal",
+          "program": 54,
+          "note": 72
+        }
+      ]
+    },
+    {
+      "id": "contemporary_rnb",
+      "name": "Contemporary R&B",
+      "aliases": [
+        "contemporary rnb",
+        "contemporary r&b",
+        "chris brown",
+        "bryson tiller",
+        "jacquees",
+        "mario",
+        "summer walker",
+        "sza"
+      ],
+      "description": "Warm chord instruments and tidy drums with enough space for a vocal. Pick electric piano or guitar as the lead harmonic voice and add the other sparingly.",
+      "bpm_hint": "70-105 BPM; light swing or a relaxed half-time pulse.",
+      "lanes": [
+        {
+          "name": "D1 Kick - warm compact knock",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - clean gentle snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - soft stereo accent",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - smooth short tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - delicate airy lift",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Percussion - quiet shaker texture",
+          "role": "percussion",
+          "program": 0,
+          "note": 70
+        },
+        {
+          "name": "B1 Bass - smooth electric round tone",
+          "role": "bass",
+          "program": 33,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - warm bell electric piano",
+          "role": "chords",
+          "program": 4,
+          "note": 60
+        },
+        {
+          "name": "M2 Guitar - clean soft pluck",
+          "role": "pluck",
+          "program": 27,
+          "note": 64
+        },
+        {
+          "name": "M3 Pad - low silky sustain",
+          "role": "pad",
+          "program": 89,
+          "note": 60
+        },
+        {
+          "name": "M4 Lead - small airy synth answer",
+          "role": "lead",
+          "program": 85,
+          "note": 72
+        }
+      ]
+    },
+    {
+      "id": "west_coast",
+      "name": "West Coast cruise",
+      "aliases": [
+        "west coast",
+        "westcoast",
+        "larry june",
+        "cardo",
+        "g funk",
+        "g-funk",
+        "warren g",
+        "dom kennedy"
+      ],
+      "description": "Unhurried drums, a warm moving bass and bright electric keys. The high synth lead works best as a short response between phrases.",
+      "bpm_hint": "88-106 BPM; laid-back sixteenths and small swung accents.",
+      "lanes": [
+        {
+          "name": "D1 Kick - rounded dry punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - crisp compact snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - tight handclap accent",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - light loose tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - short smooth sizzle",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Percussion - small woodblock knock",
+          "role": "percussion",
+          "program": 0,
+          "note": 76
+        },
+        {
+          "name": "B1 Bass - warm elastic synth",
+          "role": "bass",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - bright relaxed electric piano",
+          "role": "chords",
+          "program": 4,
+          "note": 60
+        },
+        {
+          "name": "M2 Guitar - clipped muted rhythm",
+          "role": "pluck",
+          "program": 28,
+          "note": 64
+        },
+        {
+          "name": "M3 Lead - thin high portamento whistle",
+          "role": "lead",
+          "program": 80,
+          "note": 76
+        },
+        {
+          "name": "M4 Pad - faint warm analog bed",
+          "role": "pad",
+          "program": 89,
+          "note": 60
+        }
+      ]
+    },
+    {
+      "id": "detroit_flint",
+      "name": "Detroit and Flint bounce",
+      "aliases": [
+        "detroit",
+        "flint",
+        "veeze",
+        "yn jay",
+        "lil yachty",
+        "babytron",
+        "rio da yung og",
+        "babyface ray"
+      ],
+      "description": "Dry assertive drums with off-center keyboard accents. Keep the arrangement sparse and use a single short bass voice so the rhythmic placement stays clear.",
+      "bpm_hint": "90-110 BPM, or 180-220 BPM for double-time sequencing.",
+      "lanes": [
+        {
+          "name": "D1 Kick - hard short knock",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - dry flat smack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - narrow sharp clap",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - thin precise tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - clipped bright hiss",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Percussion - hollow wood knock",
+          "role": "percussion",
+          "program": 0,
+          "note": 76
+        },
+        {
+          "name": "B1 Bass - short driven synth thud",
+          "role": "bass",
+          "program": 39,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - blunt bright piano",
+          "role": "chords",
+          "program": 0,
+          "note": 60
+        },
+        {
+          "name": "M2 Pluck - brittle bell motif",
+          "role": "pluck",
+          "program": 10,
+          "note": 72
+        },
+        {
+          "name": "M3 Strings - tight tense stabs",
+          "role": "lead",
+          "program": 45,
+          "note": 67
+        }
+      ]
+    },
+    {
+      "id": "rage",
+      "name": "Rage synth energy",
+      "aliases": [
+        "rage",
+        "yeat",
+        "ken carson",
+        "osamason",
+        "playboi carti",
+        "carti",
+        "destroy lonely",
+        "opium"
+      ],
+      "description": "A bold synth hook over clipped drums and a controlled bass. Choose the chord stack or lead as the main feature; avoid running every bright synth together.",
+      "bpm_hint": "135-165 BPM; simple repeating hooks and firm half-time hits.",
+      "lanes": [
+        {
+          "name": "D1 Kick - clipped forward punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - hard digital crack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - short crunchy accent",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - bright compressed tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - sharp noisy burst",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Cymbal - short splash transition",
+          "role": "cymbal",
+          "program": 0,
+          "note": 55
+        },
+        {
+          "name": "B1 Bass - saturated controlled 808",
+          "role": "bass",
+          "program": 39,
+          "note": 36
+        },
+        {
+          "name": "M1 Chords - bright detuned saw stack",
+          "role": "chords",
+          "program": 90,
+          "note": 60
+        },
+        {
+          "name": "M2 Lead - thin sharp square hook",
+          "role": "lead",
+          "program": 80,
+          "note": 72
+        },
+        {
+          "name": "M3 Arp - short digital pulse",
+          "role": "arp",
+          "program": 98,
+          "note": 76
+        },
+        {
+          "name": "F1 FX - brief filtered noise sweep",
+          "role": "fx",
+          "program": 103,
+          "note": 72
+        }
+      ]
+    },
+    {
+      "id": "emo_rap",
+      "name": "Emo rap melodies",
+      "aliases": [
+        "emo rap",
+        "lil peep",
+        "juice wrld",
+        "xxxtentacion",
+        "sad guitar",
+        "sad rap",
+        "the kid laroi",
+        "kid laroi",
+        "melodic emo pop",
+        "melodic_emo_pop"
+      ],
+      "description": "Expressive guitar or piano over simple trap drums. Use the pad as background support and keep the bass line closely related to the harmonic roots.",
+      "bpm_hint": "70-95 BPM, or 140-190 BPM for half-time trap sequencing.",
+      "lanes": [
+        {
+          "name": "D1 Kick - muted low punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - soft roomy crack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - narrow dry accent",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - delicate fine tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - short soft hiss",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "B1 Bass - warm sustained 808",
+          "role": "bass",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Guitar - wistful clean plucks",
+          "role": "pluck",
+          "program": 27,
+          "note": 64
+        },
+        {
+          "name": "M2 Keys - soft felt-like piano",
+          "role": "chords",
+          "program": 0,
+          "note": 60
+        },
+        {
+          "name": "M3 Pad - faint fading strings",
+          "role": "pad",
+          "program": 49,
+          "note": 60
+        },
+        {
+          "name": "M4 Lead - distant guitar harmonic",
+          "role": "lead",
+          "program": 31,
+          "note": 76
+        }
+      ]
+    },
+    {
+      "id": "drill",
+      "name": "Drill rhythm toolkit",
+      "aliases": [
+        "drill",
+        "uk drill",
+        "chicago drill",
+        "philly drill",
+        "philly",
+        "pop smoke",
+        "central cee",
+        "chief keef"
+      ],
+      "description": "A flexible drill palette with sliding bass, dry backbeat and tense short motifs. UK, Chicago and Philadelphia phrasing differ; adapt the rhythm instead of treating these sounds as one fixed pattern.",
+      "bpm_hint": "135-150 BPM as a starting point; adjust groove for the chosen drill lane.",
+      "lanes": [
+        {
+          "name": "D1 Kick - short heavy punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - tight dry rim snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - crisp high accent",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - fine sharp tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - narrow metallic lift",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Percussion - hollow syncopated click",
+          "role": "percussion",
+          "program": 0,
+          "note": 75
+        },
+        {
+          "name": "B1 Bass - sliding clean-to-driven 808",
+          "role": "bass",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - sparse low piano",
+          "role": "chords",
+          "program": 0,
+          "note": 55
+        },
+        {
+          "name": "M2 Strings - short tense plucks",
+          "role": "pluck",
+          "program": 45,
+          "note": 67
+        },
+        {
+          "name": "M3 Pad - quiet dark choir",
+          "role": "pad",
+          "program": 91,
+          "note": 60
+        },
+        {
+          "name": "M4 Lead - thin icy bell answer",
+          "role": "lead",
+          "program": 8,
+          "note": 76
+        }
+      ]
+    },
+    {
+      "id": "trap_metal",
+      "name": "Trap metal impact",
+      "aliases": [
+        "trap metal",
+        "trapmetal",
+        "scarlxrd",
+        "ghostemane",
+        "city morgue",
+        "zillakami"
+      ],
+      "description": "Hard drums and abrasive midrange accents around one controlled distorted bass. Keep the guitar and noise effects intermittent to preserve punch and space.",
+      "bpm_hint": "130-170 BPM; forceful half-time hits and abrupt phrase breaks.",
+      "lanes": [
+        {
+          "name": "D1 Kick - clipped hard impact",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - aggressive dry crack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Closed hat - harsh short tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D4 Open hat - brief gritty burst",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D5 Cymbal - short crash accent",
+          "role": "cymbal",
+          "program": 0,
+          "note": 49
+        },
+        {
+          "name": "D6 Percussion - metallic industrial knock",
+          "role": "percussion",
+          "program": 0,
+          "note": 56
+        },
+        {
+          "name": "B1 Bass - distorted 808 with clear root",
+          "role": "bass",
+          "program": 39,
+          "note": 36
+        },
+        {
+          "name": "M1 Guitar - tight palm-muted distortion",
+          "role": "chords",
+          "program": 30,
+          "note": 52
+        },
+        {
+          "name": "M2 Lead - narrow abrasive saw",
+          "role": "lead",
+          "program": 81,
+          "note": 72
+        },
+        {
+          "name": "M3 Pad - low ominous texture",
+          "role": "pad",
+          "program": 93,
+          "note": 55
+        },
+        {
+          "name": "F1 FX - short rising noise sting",
+          "role": "riser",
+          "program": 103,
+          "note": 72
+        }
+      ]
+    },
+    {
+      "id": "pop",
+      "name": "Melodic pop",
+      "aliases": [
+        "melodic pop",
+        "pop",
+        "radio pop",
+        "dance pop",
+        "dance-pop"
+      ],
+      "description": "Clear melodic voices, bright chords and compact drums. Start with one hook instrument, support it with either piano or guitar and keep the pad low.",
+      "bpm_hint": "95-125 BPM; clear four- or eight-bar phrases.",
+      "lanes": [
+        {
+          "name": "D1 Kick - clean rounded punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - polished short snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - bright light accent",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - clear soft tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - airy upbeat lift",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Percussion - light shaker pulse",
+          "role": "percussion",
+          "program": 0,
+          "note": 70
+        },
+        {
+          "name": "B1 Bass - clean warm synth pluck",
+          "role": "bass",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - bright balanced piano",
+          "role": "chords",
+          "program": 0,
+          "note": 60
+        },
+        {
+          "name": "M2 Guitar - clean rhythmic pluck",
+          "role": "pluck",
+          "program": 27,
+          "note": 64
+        },
+        {
+          "name": "M3 Lead - clear rounded synth hook",
+          "role": "lead",
+          "program": 80,
+          "note": 72
+        },
+        {
+          "name": "M4 Pad - soft glossy sustain",
+          "role": "pad",
+          "program": 90,
+          "note": 60
+        }
+      ]
+    },
+    {
+      "id": "y2k_pop",
+      "name": "Y2K pop bounce",
+      "aliases": [
+        "y2k",
+        "y2k pop",
+        "britney",
+        "britney spears",
+        "danja",
+        "pharrell",
+        "neptunes",
+        "2000s",
+        "timbaland"
+      ],
+      "description": "Dry syncopated percussion with clipped keyboard, guitar and synth accents. Keep the bass compact and use short motifs so the percussion can carry the bounce.",
+      "bpm_hint": "95-120 BPM; syncopation and deliberate empty spaces.",
+      "lanes": [
+        {
+          "name": "D1 Kick - short synthetic thump",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - dry digital smack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - bright narrow snap",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - tiny crisp tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Percussion - hollow hand-drum tap",
+          "role": "percussion",
+          "program": 0,
+          "note": 62
+        },
+        {
+          "name": "D6 Percussion - woody rim accent",
+          "role": "percussion",
+          "program": 0,
+          "note": 37
+        },
+        {
+          "name": "B1 Bass - short rubbery synth",
+          "role": "bass",
+          "program": 39,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - clipped electric chords",
+          "role": "chords",
+          "program": 5,
+          "note": 60
+        },
+        {
+          "name": "M2 Pluck - muted rhythmic guitar",
+          "role": "pluck",
+          "program": 28,
+          "note": 64
+        },
+        {
+          "name": "M3 Lead - nasal monophonic synth",
+          "role": "lead",
+          "program": 80,
+          "note": 72
+        },
+        {
+          "name": "M4 Accent - bright synthetic brass",
+          "role": "arp",
+          "program": 63,
+          "note": 67
+        }
+      ]
+    },
+    {
+      "id": "alt_pop",
+      "name": "Alternative pop textures",
+      "aliases": [
+        "alt pop",
+        "alt-pop",
+        "alternative pop",
+        "frank ocean",
+        "blonde",
+        "bedroom pop",
+        "mac miller",
+        "alternative",
+        "alt"
+      ],
+      "description": "Intimate keys, dry close drums and small changes of texture. Let the guitar or electric piano lead, with the synth voice and pad used as occasional color.",
+      "bpm_hint": "70-110 BPM; flexible space and uneven phrase lengths if useful.",
+      "lanes": [
+        {
+          "name": "D1 Kick - soft close thud",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - dry brushed-feel snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Closed hat - muted delicate tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D4 Percussion - small rim click",
+          "role": "percussion",
+          "program": 0,
+          "note": 37
+        },
+        {
+          "name": "D5 Percussion - fine shaker dust",
+          "role": "percussion",
+          "program": 0,
+          "note": 70
+        },
+        {
+          "name": "B1 Bass - soft fingered electric",
+          "role": "bass",
+          "program": 33,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - intimate electric piano",
+          "role": "chords",
+          "program": 4,
+          "note": 60
+        },
+        {
+          "name": "M2 Guitar - clean rounded fragments",
+          "role": "pluck",
+          "program": 27,
+          "note": 64
+        },
+        {
+          "name": "M3 Pad - gently unstable analog warmth",
+          "role": "pad",
+          "program": 89,
+          "note": 60
+        },
+        {
+          "name": "M4 Vocal - soft synthetic vowel",
+          "role": "vocal",
+          "program": 54,
+          "note": 72
+        },
+        {
+          "name": "F1 FX - brief echoing glass accent",
+          "role": "fx",
+          "program": 102,
+          "note": 76
+        }
+      ]
+    },
+    {
+      "id": "pop_punk",
+      "name": "Pop punk band palette",
+      "aliases": [
+        "pop punk",
+        "pop-punk",
+        "blink 182",
+        "blink-182",
+        "sum 41",
+        "machine gun kelly",
+        "mgk"
+      ],
+      "description": "A compact band arrangement built from punchy kit, picked bass and short guitar parts. Play rhythm and lead guitars as complementary roles and leave the pad out when the band already fills the space.",
+      "bpm_hint": "145-185 BPM; driving eighth notes and occasional half-time sections.",
+      "lanes": [
+        {
+          "name": "D1 Kick - tight acoustic punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - bright open crack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Closed hat - crisp acoustic tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D4 Open hat - energetic short wash",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D5 Cymbal - bright crash accent",
+          "role": "cymbal",
+          "program": 0,
+          "note": 49
+        },
+        {
+          "name": "D6 Percussion - compact rack tom",
+          "role": "percussion",
+          "program": 0,
+          "note": 48
+        },
+        {
+          "name": "B1 Bass - tight picked electric",
+          "role": "bass",
+          "program": 34,
+          "note": 36
+        },
+        {
+          "name": "M1 Guitar - crunchy palm-muted chords",
+          "role": "chords",
+          "program": 29,
+          "note": 52
+        },
+        {
+          "name": "M2 Guitar - bright singing lead",
+          "role": "lead",
+          "program": 30,
+          "note": 72
+        },
+        {
+          "name": "M3 Pluck - clean guitar breakdown",
+          "role": "pluck",
+          "program": 27,
+          "note": 64
+        }
+      ]
+    },
+    {
+      "id": "pop_rock",
+      "name": "Melodic pop rock",
+      "aliases": [
+        "pop rock",
+        "pop-rock",
+        "indie rock",
+        "alternative rock",
+        "guitar pop",
+        "indie",
+        "dominic fike"
+      ],
+      "description": "Open band colors with steady acoustic drums and a warm bass line. Choose piano or rhythm guitar as the harmonic foundation and let the lead guitar answer the melody.",
+      "bpm_hint": "95-135 BPM; steady backbeat with controlled fills.",
+      "lanes": [
+        {
+          "name": "D1 Kick - rounded acoustic punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - natural medium crack",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Closed hat - balanced acoustic tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D4 Open hat - loose short sizzle",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D5 Cymbal - restrained crash",
+          "role": "cymbal",
+          "program": 0,
+          "note": 49
+        },
+        {
+          "name": "D6 Percussion - warm low tom",
+          "role": "percussion",
+          "program": 0,
+          "note": 45
+        },
+        {
+          "name": "B1 Bass - warm picked electric",
+          "role": "bass",
+          "program": 34,
+          "note": 36
+        },
+        {
+          "name": "M1 Guitar - open mild overdrive",
+          "role": "chords",
+          "program": 29,
+          "note": 55
+        },
+        {
+          "name": "M2 Keys - clear supporting piano",
+          "role": "chords",
+          "program": 0,
+          "note": 60
+        },
+        {
+          "name": "M3 Guitar - clean ringing lead",
+          "role": "lead",
+          "program": 27,
+          "note": 72
+        },
+        {
+          "name": "M4 Pad - subtle organ sustain",
+          "role": "pad",
+          "program": 16,
+          "note": 60
+        }
+      ]
+    },
+    {
+      "id": "afrobeats",
+      "name": "Afrobeats groove",
+      "aliases": [
+        "afrobeats",
+        "afrobeat",
+        "afro beats",
+        "rema",
+        "burna boy",
+        "wizkid",
+        "asake",
+        "tems"
+      ],
+      "description": "Light interlocking percussion, a compact bass and bright short melodic tones. Keep the drum kit restrained so the hand percussion and gaps remain audible.",
+      "bpm_hint": "95-115 BPM; interlocking syncopation and light velocity changes.",
+      "lanes": [
+        {
+          "name": "D1 Kick - short soft punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - dry rim-led snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Closed hat - light fine tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D4 Percussion - gentle shaker pulse",
+          "role": "percussion",
+          "program": 0,
+          "note": 70
+        },
+        {
+          "name": "D5 Percussion - warm high conga",
+          "role": "percussion",
+          "program": 0,
+          "note": 63
+        },
+        {
+          "name": "D6 Percussion - round low conga",
+          "role": "percussion",
+          "program": 0,
+          "note": 64
+        },
+        {
+          "name": "B1 Bass - warm short electric tone",
+          "role": "bass",
+          "program": 33,
+          "note": 36
+        },
+        {
+          "name": "M1 Pluck - clean muted guitar",
+          "role": "pluck",
+          "program": 28,
+          "note": 64
+        },
+        {
+          "name": "M2 Keys - soft bright electric piano",
+          "role": "chords",
+          "program": 4,
+          "note": 60
+        },
+        {
+          "name": "M3 Lead - airy flute reply",
+          "role": "lead",
+          "program": 73,
+          "note": 72
+        },
+        {
+          "name": "M4 Pluck - mellow wooden marimba",
+          "role": "arp",
+          "program": 12,
+          "note": 67
+        }
+      ]
+    },
+    {
+      "id": "dancehall",
+      "name": "Dancehall rhythm",
+      "aliases": [
+        "dancehall",
+        "dance hall",
+        "vybz kartel",
+        "popcaan",
+        "alkaline",
+        "shenseea"
+      ],
+      "description": "Firm low drums, a sharp rim sound and short rhythmic synth or organ accents. Use one compact bass and keep the melodic phrases simple enough to reinforce the groove.",
+      "bpm_hint": "90-108 BPM; deliberate kick and rim syncopation.",
+      "lanes": [
+        {
+          "name": "D1 Kick - deep short knock",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - sharp dry rim snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - compact handclap accent",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - thin clear tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Percussion - bright woodblock click",
+          "role": "percussion",
+          "program": 0,
+          "note": 76
+        },
+        {
+          "name": "D6 Percussion - soft shaker pulse",
+          "role": "percussion",
+          "program": 0,
+          "note": 70
+        },
+        {
+          "name": "B1 Bass - rounded short synth sub",
+          "role": "bass",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Keys - short warm organ stabs",
+          "role": "chords",
+          "program": 16,
+          "note": 60
+        },
+        {
+          "name": "M2 Pluck - bright muted synth",
+          "role": "pluck",
+          "program": 80,
+          "note": 67
+        },
+        {
+          "name": "M3 Lead - thin melodic reed",
+          "role": "lead",
+          "program": 84,
+          "note": 72
+        }
+      ]
+    },
+    {
+      "id": "reggaeton",
+      "name": "Reggaeton bounce",
+      "aliases": [
+        "reggaeton",
+        "reggaetón",
+        "bad bunny",
+        "feid",
+        "rauw alejandro",
+        "karol g",
+        "j balvin"
+      ],
+      "description": "A clear low-end pulse with dry rim and clap accents, bright plucks and light harmony. Keep bass notes compact and reserve the vocal-like synth for brief responses.",
+      "bpm_hint": "88-105 BPM; a clear dembow pulse with small percussion variations.",
+      "lanes": [
+        {
+          "name": "D1 Kick - tight low punch",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Snare - dry hard rim snap",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D3 Clap - crisp short layer",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D4 Closed hat - light precise tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Percussion - warm hand-drum tap",
+          "role": "percussion",
+          "program": 0,
+          "note": 62
+        },
+        {
+          "name": "D6 Percussion - fine shaker accent",
+          "role": "percussion",
+          "program": 0,
+          "note": 70
+        },
+        {
+          "name": "B1 Bass - clean compact synth sub",
+          "role": "bass",
+          "program": 38,
+          "note": 36
+        },
+        {
+          "name": "M1 Pluck - bright nylon guitar",
+          "role": "pluck",
+          "program": 24,
+          "note": 64
+        },
+        {
+          "name": "M2 Keys - soft electric chord stabs",
+          "role": "chords",
+          "program": 5,
+          "note": 60
+        },
+        {
+          "name": "M3 Lead - rounded synthetic whistle",
+          "role": "lead",
+          "program": 80,
+          "note": 72
+        },
+        {
+          "name": "M4 Vocal - short synthetic vowel reply",
+          "role": "vocal",
+          "program": 54,
+          "note": 76
+        }
+      ]
+    },
+    {
+      "id": "krushclub",
+      "name": "Krushclub digital bounce",
+      "aliases": [
+        "krushclub",
+        "krush club",
+        "asteria",
+        "kets4eki"
+      ],
+      "description": "Tightly clipped dance drums, a short bass and a bright digital hook. Choose either the saw chords or square lead as the main idea, and place the synthetic vocal accent in the gaps.",
+      "bpm_hint": "130-155 BPM; a brisk dance pulse with short repeated hooks.",
+      "lanes": [
+        {
+          "name": "D1 Kick - hard compact dance thump",
+          "role": "kick",
+          "program": 0,
+          "note": 36
+        },
+        {
+          "name": "D2 Clap - crunchy short handclap",
+          "role": "clap",
+          "program": 0,
+          "note": 39
+        },
+        {
+          "name": "D3 Snare - sharp digital accent",
+          "role": "snare",
+          "program": 0,
+          "note": 38
+        },
+        {
+          "name": "D4 Closed hat - tiny bright tick",
+          "role": "closed_hat",
+          "program": 0,
+          "note": 42
+        },
+        {
+          "name": "D5 Open hat - clipped upbeat hiss",
+          "role": "open_hat",
+          "program": 0,
+          "note": 46
+        },
+        {
+          "name": "D6 Percussion - dry digital click",
+          "role": "percussion",
+          "program": 0,
+          "note": 75
+        },
+        {
+          "name": "B1 Bass - short rubbery distorted synth",
+          "role": "bass",
+          "program": 39,
+          "note": 36
+        },
+        {
+          "name": "M1 Chords - bright narrow saw stabs",
+          "role": "chords",
+          "program": 90,
+          "note": 60
+        },
+        {
+          "name": "M2 Lead - high rounded square hook",
+          "role": "lead",
+          "program": 80,
+          "note": 76
+        },
+        {
+          "name": "M3 Vocal - tiny synthetic vowel chop",
+          "role": "vocal",
+          "program": 54,
+          "note": 72
+        },
+        {
+          "name": "F1 FX - brief digital rising sweep",
+          "role": "riser",
+          "program": 103,
+          "note": 72
+        }
+      ]
+    }
+  ]
+}
